@@ -27,7 +27,7 @@ var isValid = function (s) {
 };
 
 
-s = "(){}}{"
+s = "(){({({})})}}{"
 console.log(isValid(s))
 
 
