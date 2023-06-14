@@ -7,7 +7,6 @@ const isPowerOfTwo = function (n) {
   while (remain != 1 && newNumber > 2) {
     remain = newNumber % 2
     newNumber = newNumber / 2
-    console.log('remain = ', remain, 'newNumber - ', newNumber)
   }
   return remain == 0 ? true : false
 };
